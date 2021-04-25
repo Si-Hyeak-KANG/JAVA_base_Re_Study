@@ -2,12 +2,22 @@ package ch24T;
 
 public class Subject {
 
-	public String subjectName;
-	public int score;
+	private String subjectName;
+	private int score;
 	
-	public Subject(String subjectName, int score) {
+	public String getSubjectName() {
+		return subjectName;
+	}
+	public void setSubjectName(String subjectName) {
 		this.subjectName = subjectName;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
 		this.score = score;
 	}
+	
+	
 	
 }
