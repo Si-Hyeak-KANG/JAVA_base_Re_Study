@@ -1,6 +1,5 @@
 package ch01;
 
-
 class Outer2 {
 	
 	int outNum = 100;
@@ -11,6 +10,7 @@ class Outer2 {
 
 		int num = 10;
 		
+		//class MyRunnable implements Runnable 
 		return new Runnable() {
 
 			int localNum = 1000;
