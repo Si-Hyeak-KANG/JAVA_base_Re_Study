@@ -5,7 +5,7 @@ public class EtiopiaAmericano extends Coffee {
 	@Override
 	public void brewing() {
 		
-		System.out.println("Etiopoa Americano");
+		System.out.println("Etiopia Americano");
 	}
 
 }
