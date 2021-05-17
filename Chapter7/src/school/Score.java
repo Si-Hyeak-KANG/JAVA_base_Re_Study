@@ -21,7 +21,7 @@ public class Score {
 		this.studentId = studentId;
 	}
 
-	public Subject getSubjet() {
+	public Subject getSubject() {
 		return subject;
 	}
 
